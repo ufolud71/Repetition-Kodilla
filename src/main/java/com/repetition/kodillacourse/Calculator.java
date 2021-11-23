@@ -5,14 +5,14 @@ public class Calculator {
     public Calculator() {
     }
 
-    public double add(float a, float b) {
-        float equals = a + b;
+    public double add(double a, double b) {
+        double equals = a + b;
         System.out.println(equals);
         return equals;
     }
 
-    public double subtract(float a, float b) {
-        float equals = a - b;
+    public double subtract(double a, double b) {
+        double equals = a - b;
         System.out.println(equals);
         return equals;
     }
